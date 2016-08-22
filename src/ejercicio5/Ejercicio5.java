@@ -230,7 +230,11 @@ public class Ejercicio5 extends javax.swing.JFrame {
        JOptionPane.showMessageDialog(this,"El descuento por seguro social es:"+descsocial); 
        JOptionPane.showMessageDialog(this,"El descuento por caja de ahorro es:"+descahorro); 
        JOptionPane.showMessageDialog(this,"El descuento por ley politica es:"+descpolitica); 
-       JOptionPane.showMessageDialog(this,"El monto total del trabajador es:"+montototal);
+       JOptionPane.showMessageDialog(this,"El monto total del trabajador es:"+montototal); 
+       
+       
+       
+       
      }
     }//GEN-LAST:event_cmdCalcularActionPerformed
 
@@ -249,7 +253,7 @@ public class Ejercicio5 extends javax.swing.JFrame {
 
     private void txtSueldoBaseKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtSueldoBaseKeyTyped
         char c=evt.getKeyChar(); 
-       if(!Character.isDigit(c) && c != '.') { 
+       if(!Character.isDigit(c)){ 
               getToolkit().beep(); 
               evt.consume();
     }//GEN-LAST:event_txtSueldoBaseKeyTyped
